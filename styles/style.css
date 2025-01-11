@@ -1,3 +1,15 @@
+/* shared styles */
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+
 /* Nav styles */
 .fira-sans-bold {
     font-family: "Fira Sans", serif;
@@ -8,9 +20,53 @@
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-title {
     font-weight: 800px;
     font-size: 32px;
+}
+
+.nav-btn {
+    color: #006A50;
+    background-color: #FFFFFF;
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+/* Banner styles */
+.banner {
+    width: 1280px;
+    height: 560px;
+    padding: 80px 100px;
+    margin: auto;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 622px;
+    height: 326px;
+}
+
+#banner-title {
+    color: #0E0E0E80;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#banner-txt {
+    font-weight: 700;
+    font-size: 56px;
 }

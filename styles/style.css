@@ -218,3 +218,80 @@ nav ul li {
     font-weight: 400;
     font-size: 16px;
 }
+
+.recent-news {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+    margin-bottom: 24px;
+}
+
+.recent-news-details {
+    width: 744px;
+}
+
+.recent-news-details span,
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0EB3;
+}
+
+.recent-news-details span {
+    margin-right: 12px;
+}
+
+.news-image {
+    border-radius: 24px;
+}
+
+.news-title {
+    color: #0E0E0ECC;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Donate Bangladesh styles */
+.donate {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.amount-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.amount-card {
+    width: 240px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.amount-card:hover {
+    background-color: #C6E4D6;
+}
+
+.donate input {
+    text-align: center;
+    margin: 32px;
+    width: 1032px;
+    padding: 20px 40px;
+    border: none;
+}
+
+/* News letter styles */
+

@@ -9,6 +9,11 @@
     border: none;
 }
 
+.btn-primary:hover {
+    background-color: #004E39;
+    color: #E0FFE9;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 40px;
@@ -26,7 +31,7 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -45,14 +50,24 @@ nav {
     font-size: 18px;
 }
 
+.nav-btn:hover {
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    transition: all 0.3s ease;
+}
+
 nav ul li {
     list-style: none;
 }
 
+header {
+    width: 1280px;
+    margin: auto;
+}
+
 /* Banner styles */
 .banner {
-    width: 1280px;
-    height: 560px;
     padding: 80px 100px;
     margin: auto;
     background-color: #C6E4D6;
@@ -62,10 +77,11 @@ nav ul li {
     justify-content: space-between;
 }
 
-.banner-content {
+
+/* .banner-content {
     width: 622px;
     height: 326px;
-}
+} */
 
 #banner-title {
     color: #0E0E0E80;
@@ -174,6 +190,18 @@ nav ul li {
     font-weight: 600;
     font-size: 18px;
     border: none;
+}
+
+.theme-1 button:hover {
+    background-color: #407ACC;
+}
+
+.theme-2 button:hover {
+    background-color: #007B46;
+}
+
+.theme-3 button:hover {
+    background-color: #E5A429;
 }
 
 /* Quote styles */
@@ -295,3 +323,65 @@ p {
 
 /* News letter styles */
 
+.subscribe {
+    width: 1280px;
+    padding: 80px 100px;
+    border-radius: 24px;
+    margin: auto;
+    background-color: #C6E4D6;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.subscribe input {
+    width: 600px;
+    height: 56px;
+    border: none;
+    border-radius: 17px 0px 0px 17px;
+}
+
+.subscribe button {
+    border-radius: 0px 17px 17px 0px;
+}
+
+.subscribe button:hover {
+    background-color: #007B46;
+    color: #E0FFE9;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.scam-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#hr-line {
+    width: 1122px;
+}
+
+.icons img {
+    margin-right: 23px;
+}

@@ -1,4 +1,5 @@
-/* shared styles */
+/* Shared Styles */
+/* Styles for primary buttons used throughout the design */
 .btn-primary {
     color: #FFFFFF;
     background-color: #006A50;
@@ -9,19 +10,21 @@
     border: none;
 }
 
+/* Hover effect for primary buttons */
 .btn-primary:hover {
     background-color: #004E39;
     color: #E0FFE9;
 }
 
+/* Section title styling for uniformity across sections */
 .section-title {
     font-weight: 700;
     font-size: 40px;
     margin-top: 80px;
 }
 
-
-/* Nav styles */
+/* Navigation Styles */
+/* Custom font family for navigation text */
 .fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-weight: 700;
@@ -29,17 +32,20 @@
     background-color: #F1F1F3;
 }
 
+/* Navigation bar layout and alignment */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Styling for the navigation title */
 .nav-title {
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 32px;
 }
 
+/* Styling for navigation buttons */
 .nav-btn {
     color: #006A50;
     background-color: #FFFFFF;
@@ -50,6 +56,7 @@ nav {
     font-size: 18px;
 }
 
+/* Hover effect for navigation buttons */
 .nav-btn:hover {
     background-color: #006A50;
     color: #FFFFFF;
@@ -57,16 +64,19 @@ nav {
     transition: all 0.3s ease;
 }
 
+/* Removes default list styles for navigation items */
 nav ul li {
     list-style: none;
 }
 
+/* Ensures consistent header width and alignment */
 header {
     width: 1280px;
     margin: auto;
 }
 
-/* Banner styles */
+/* Banner Styles */
+/* Main styling for the banner section */
 .banner {
     padding: 80px 100px;
     margin: auto;
@@ -77,25 +87,21 @@ header {
     justify-content: space-between;
 }
 
-
-/* .banner-content {
-    width: 622px;
-    height: 326px;
-} */
-
+/* Styling for the banner subtitle */
 #banner-title {
     color: #0E0E0E80;
     font-weight: 500;
     font-size: 24px;
 }
 
+/* Styling for the main banner text */
 #banner-txt {
     font-weight: 700;
     font-size: 56px;
 }
 
-/* Pillars section styles */
-
+/* Pillars Section Styles */
+/* Container for the pillars section */
 .pillars-of-bd {
     width: 1280px;
     height: 324px;
@@ -103,11 +109,13 @@ header {
     margin-top: 80px;
 }
 
+/* Layout for the cards in the pillars section */
 .cards {
     display: flex;
     gap: 24px;
 }
 
+/* Styling for individual pillar cards */
 .card {
     width: 302px;
     height: 244px;
@@ -116,26 +124,28 @@ header {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Styling for card titles */
 .card-title {
     font-weight: 700;
     font-size: 20px;
 }
 
-/* Vision styles */
-
+/* Vision Section Styles */
+/* Container styling for the vision section */
 .vision {
     width: 1280px;
     margin: auto;
 }
 
+/* Paragraph styling within the vision section */
 .vision-para {
     color: #0E0E0EB3;
     font-weight: 400;
     font-size: 16px;
 }
 
-/* Vision card styles */
-
+/* Vision Card Styles */
+/* Layout for the vision cards */
 .vision-cards {
     display: flex;
     gap: 24px;
@@ -143,6 +153,7 @@ header {
     justify-content: space-between;
 }
 
+/* Styling for individual vision cards */
 .vision-card {
     width: 410px;
     height: 325px;
@@ -150,10 +161,12 @@ header {
     border-radius: 16px;
 }
 
+/* Theme 1 styles */
 .theme-1 {
     background-color: #5490F533;
 }
 
+/* Button styling for Theme 1 */
 .theme-1 button {
     color: #FFFFFF;
     background-color: #5490F5;
@@ -164,10 +177,12 @@ header {
     border: none;
 }
 
+/* Theme 2 styles */
 .theme-2 {
     background-color: #C6E4D6;
 }
 
+/* Button styling for Theme 2 */
 .theme-2 button {
     color: #FFFFFF;
     background-color: #09A15C;
@@ -178,10 +193,12 @@ header {
     border: none;
 }
 
+/* Theme 3 styles */
 .theme-3 {
     background-color: #F7EBCF;
 }
 
+/* Button styling for Theme 3 */
 .theme-3 button {
     color: #FFFFFF;
     background-color: #FFC239;
@@ -192,6 +209,7 @@ header {
     border: none;
 }
 
+/* Hover effects for theme buttons */
 .theme-1 button:hover {
     background-color: #407ACC;
 }
@@ -204,8 +222,8 @@ header {
     background-color: #E5A429;
 }
 
-/* Quote styles */
-
+/* Quote Section Styles */
+/* Container styling for the quote section */
 .quote {
     width: 1280px;
     margin: auto;
@@ -215,38 +233,45 @@ header {
     border-radius: 16px;
 }
 
+/* Inner container styling for the quote section */
 .quote-box {
     padding: 24px 48px;
     margin-top: 32px;
 }
 
+/* Paragraph styling within the quote section */
 .quote-box p {
     color: #0E0E0ECC;
     font-weight: 400;
     font-size: 16px;
 }
 
+/* Styling for the quote title */
 .quote-title {
     font-weight: 600;
     font-size: 20px;
 }
 
+/* Subtitle styling for the quote section */
 .quote-subtitle {
     color: #0E0E0E99;
 }
 
-/* Recent news section styles */
+/* Recent News Section Styles */
+/* Container for the recent news section */
 .news {
     width: 1280px;
     margin: auto;
 }
 
+/* Styling for text in the news section */
 .news-txt {
     color: #0E0E0EB3;
     font-weight: 400;
     font-size: 16px;
 }
 
+/* Individual recent news item styles */
 .recent-news {
     background-color: #FFFFFF;
     border-radius: 24px;
@@ -257,10 +282,12 @@ header {
     margin-bottom: 24px;
 }
 
+/* Styling for details within recent news items */
 .recent-news-details {
     width: 744px;
 }
 
+/* Span and paragraph styling for recent news details */
 .recent-news-details span,
 p {
     font-weight: 400;
@@ -268,14 +295,17 @@ p {
     color: #0E0E0EB3;
 }
 
+/* Styling for span elements in recent news */
 .recent-news-details span {
     margin-right: 12px;
 }
 
+/* Styling for news images */
 .news-image {
     border-radius: 24px;
 }
 
+/* Title styling for recent news items */
 .news-title {
     color: #0E0E0ECC;
     font-weight: 700;
@@ -283,18 +313,21 @@ p {
     margin: 0;
 }
 
-/* Donate Bangladesh styles */
+/* Donate Bangladesh Section Styles */
+/* Container styling for the donate section */
 .donate {
     width: 1280px;
     margin: auto;
     text-align: center;
 }
 
+/* Title styling for the donate section */
 .donate-title {
     font-weight: 700;
     font-size: 40px;
 }
 
+/* Layout for donation amount cards */
 .amount-cards {
     display: flex;
     align-items: center;
@@ -302,6 +335,7 @@ p {
     gap: 24px;
 }
 
+/* Styling for individual donation cards */
 .amount-card {
     width: 240px;
     padding: 40px;
@@ -309,10 +343,12 @@ p {
     background-color: #FFFFFF;
 }
 
+/* Hover effect for donation cards */
 .amount-card:hover {
     background-color: #C6E4D6;
 }
 
+/* Input field styling for donations */
 .donate input {
     text-align: center;
     margin: 32px;
@@ -321,8 +357,8 @@ p {
     border: none;
 }
 
-/* News letter styles */
-
+/* Newsletter Subscription Styles */
+/* Container for the subscription section */
 .subscribe {
     width: 1280px;
     padding: 80px 100px;
@@ -333,6 +369,7 @@ p {
     margin-top: 80px;
 }
 
+/* Input field styling for subscription */
 .subscribe input {
     width: 600px;
     height: 56px;
@@ -340,48 +377,56 @@ p {
     border-radius: 17px 0px 0px 17px;
 }
 
+/* Button styling for subscription */
 .subscribe button {
     border-radius: 0px 17px 17px 0px;
 }
 
+/* Hover effect for subscription button */
 .subscribe button:hover {
     background-color: #007B46;
     color: #E0FFE9;
 }
 
+/* Title styling for the subscription section */
 .subscribe-title {
     font-weight: 700;
     font-size: 40px;
 }
 
+/* Small text styling for warnings about scams */
 .scam-text {
     font-weight: 400;
     font-size: 16px;
 }
 
-/* Footer */
-
+/* Footer Styles */
+/* Footer container styling */
 .footer {
     background-color: #FFFFFF;
     text-align: center;
 }
 
+/* Icon layout in the footer */
 .icons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Title styling for the footer */
 .footer-title {
     margin-top: 32px;
     font-weight: 700;
     font-size: 32px;
 }
 
+/* Horizontal line styling in the footer */
 #hr-line {
     width: 1122px;
 }
 
+/* Styling for footer icons */
 .icons img {
     margin-right: 23px;
 }
